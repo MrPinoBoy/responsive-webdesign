@@ -48,15 +48,18 @@
         flex-flow: row;
         flex-wrap: nowrap;
     }
-    /*#small {
-        display: none;
+    #small {
+        /*display: none;*/
+        width: 33%;
     }
     #medium {
-        display: none;
+        /*display: none;*/
+        width: 33%;
     }
     #large {
-        display: block;
-    }*/
+        /*display: block;*/
+        width: 33%;
+    }
     p {
         font-size: 100%;
     }
