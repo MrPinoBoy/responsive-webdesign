@@ -1,0 +1,63 @@
+@media only screen {
+    body {
+        background-color: red;
+        display: flex;
+        flex-flow: column;
+        flex-wrap: nowrap; /*Unnecessary but i used it to check if divs were displayed on top of another*/
+    }
+    /*#small {
+        display: block;
+    }
+    #medium {
+        display: none;
+    }
+    #large {
+        display: none;
+    }*/
+    p {
+        font-size: 200%;
+    }
+}
+@media only screen and (min-width: 300px) {
+    body {
+        background-color: green;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #small {
+        width: 66%;
+        /*display: none;*/
+    }
+    #medium {
+       /*display: block;*/
+       width: 33%;
+    }
+    #large {
+        /*display: none;*/
+        width: 100%;
+    }
+    p {
+        font-size: 150%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: blue;
+        display: flex;
+        flex-flow: row;
+        flex-wrap: nowrap;
+    }
+    /*#small {
+        display: none;
+    }
+    #medium {
+        display: none;
+    }
+    #large {
+        display: block;
+    }*/
+    p {
+        font-size: 100%;
+    }
+}
