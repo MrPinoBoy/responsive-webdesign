@@ -18,7 +18,7 @@
         font-size: 200%;
     }
 }
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 300px) and (max-width: 768px) {
     body {
         background-color: green;
         display: flex;
@@ -48,16 +48,8 @@
         flex-flow: row;
         flex-wrap: nowrap;
     }
-    #small {
+    #small, #medium, #large {
         /*display: none;*/
-        width: 33%;
-    }
-    #medium {
-        /*display: none;*/
-        width: 33%;
-    }
-    #large {
-        /*display: block;*/
         width: 33%;
     }
     p {
